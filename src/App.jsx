@@ -28,7 +28,7 @@ function App() {
     <div className='APP'>
      <header className='header'>
         <div className='welcome'>
-         <img src='/src/assets/NASA_logo.svg.png'className='nasa-icon'/>
+         <img src='../public/NASA_logo.svg.png'className='nasa-icon'/>
          <h1>Bienvenido a la foto diaria de la Nasa</h1>
          <div className='select'>
           <p>Selecciona para ver imagenes de APOD o del Rover de marte</p>
