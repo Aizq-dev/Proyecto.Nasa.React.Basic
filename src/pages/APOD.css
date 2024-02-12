@@ -1,0 +1,53 @@
+
+  .photo_apod{
+    width: 500px;
+    height: 500px;
+  }
+  .container_apod{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-div_apod{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    position: relative;
+   }
+ .loading{
+   text-align: center;
+   position:relative;
+  }
+  .photo_apod{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   position:absolute;
+   border-radius: 1%;
+   
+  }
+
+   .hidden {
+        display: none;
+      }
+
+  @media screen and (max-width: 770px){
+        .input{min-width: 150px;
+          position:absolute;
+         }
+            .container_apod{
+              margin-top: 150px;
+              max-width:580px;
+              position: absolute;
+            ;   
+            }
+            .image-div_apod{
+              max-width: 300px;
+              max-height: 300px;
+            }
+ 
+        }
