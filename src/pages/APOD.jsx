@@ -42,7 +42,7 @@ const APOD = () => {
     
   return (
     <>
-    <div className='input'>
+    <div className='input_apod'>
     <p>Siente libre de seleccionar la fecha que desees y ver las fotos de ese dia</p>
     <input type="date"  onChange={handleInput_apod}/>
     </div>

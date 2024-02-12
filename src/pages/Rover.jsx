@@ -38,7 +38,7 @@ const Rover = () => {
 console.log(photoData)
   return (
     <>
-      <div className='input'>
+      <div className='input_rover'>
         {date === '2012-08-06' && <p>Las primeras fotos realizas por el rover son estas con fecha 2012-08-06 </p>}
         <p>Siente libre de seleccionar la fecha que desees y ver las fotos de ese dia</p>
         <input type="date" onChange={handleInput_rover} />
