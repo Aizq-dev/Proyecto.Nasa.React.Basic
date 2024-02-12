@@ -22,7 +22,9 @@ function App() {
       setSelectedOption(location.pathname.substring(1)); // Actualizamos selectedOption al cambiar la URL
     }, [location]);
   
- 
+    useEffect(() => {
+      navigate(`/${defaultOption}`);
+    }, []);
 
   return  (
     <div className='APP'>
