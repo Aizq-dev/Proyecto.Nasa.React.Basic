@@ -1,0 +1,15 @@
+.select {
+    padding-left: 1rem;
+    width: 10rem;
+}
+
+.select > select {
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 970px) {
+    .select {
+        min-width: 130px;
+    }
+}

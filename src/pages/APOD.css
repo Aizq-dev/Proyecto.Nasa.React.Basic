@@ -1,50 +1,61 @@
-
-.input_apod{
+.input_apod {
   padding-left: 1rem;
   width: 20%;
 }
-  .container_apod{
-    width:80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-right: 1rem;
-  }
-  .image-div_apod{
-    display: flex;
-   justify-content: center;
-    align-items: center;
-    width: 450px;
-    height: 450px;
-    position: relative;
-   }
- .loading{
-   text-align: center;
-   position:relative;
-  }
-  .photo_apod{
-   width: 100%;
-   height: 100%;
-   object-fit: cover;
-   position:absolute;
-   border-radius: 1%;
-   
+
+.container_apod {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.image-div_apod {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 450px;
+  position: relative;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  transition: all 5s;
+}
+
+.image-div_apod:hover {
+  transform: rotate(360deg);
+}
+
+.loading {
+  width: 50px;
+  padding: 200px;
+}
+
+.photo_apod {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  border-radius: 1%;
+
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .input_apod {
+    width: 100%
   }
 
-   .hidden {
-        display: none;
-      }
+  .container_apod {
+    padding-left: 1rem;
+  }
 
-  @media screen and (max-width: 700px){
-        .input_apod{width: 100%
-         }
-         .container_apod{padding-left: 1rem;}
-           
-            .image-div_apod{
-              max-width: 300px;
-              max-height: 300px;
-            }
-        }
-
-   
+  .image-div_apod {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
