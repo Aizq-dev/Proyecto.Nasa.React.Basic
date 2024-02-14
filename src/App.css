@@ -1,7 +1,7 @@
 body {
   margin: 0;
   display: flex;
-  background-image: url('nasa_background.jpg');
+  background-image: url('../public/nasa_background.jpg');
   background-size: cover;
   color: aliceblue;
   min-width: 320px;
