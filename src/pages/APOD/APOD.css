@@ -1,8 +1,4 @@
-body{
-  background-image: url('nasa_background.jpg');
-  background-size: cover;
-  color: aliceblue;
-}
+
 .input_apod{
   padding-left: 1rem;
   width: 20%;

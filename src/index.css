@@ -2,9 +2,11 @@
   font-family:sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  background-color: hwb(0 100% 0%);
+  background-image: url('nasa_background.jpg');
+  background-size: cover;
+  color: aliceblue;
+ 
+ 
 
 
   font-synthesis: none;
