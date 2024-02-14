@@ -1,4 +1,8 @@
-
+body{
+  background-image: url('nasa_background.jpg');
+  background-size: cover;
+  color: aliceblue;
+}
 .input_apod{
   padding-left: 1rem;
   width: 20%;
@@ -10,6 +14,11 @@
     justify-content: center;
     align-items: center;
     padding-right: 1rem;
+ 
+  }
+   .loading{
+   text-align: center;
+   position:relative;
   }
   .image-div_apod{
     display: flex;
@@ -19,10 +28,9 @@
     height: 450px;
     position: relative;
    }
- .loading{
-   text-align: center;
-   position:relative;
-  }
+   .image-div_apod:hover{
+    padding: 50px;
+   }
   .photo_apod{
    width: 100%;
    height: 100%;

@@ -1,0 +1,7 @@
+.select > select{
+    cursor: pointer;
+    border-radius: 80%;
+    height: 2rem;
+    width: 5rem;
+    
+}

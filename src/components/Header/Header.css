@@ -1,0 +1,33 @@
+
+.header{
+    width: 100%;
+    height: rem;
+    /* color: rgba(8, 50, 122, 0.87); */
+    color: aliceblue;
+    
+  }
+  .nasa-icon{
+    width: 150px;
+    height: 150px;
+  }
+  
+  .welcome{ 
+    display: flex;
+    
+   
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 3rem;
+  }
+  .select{
+    padding-left: 1rem;
+    width: 10rem;
+  }
+  @media screen and (max-width: 970px){
+    .select{min-width: 130px;}
+  }
+  @media screen and (max-width: 676px){
+      .welcome > h1{display:none}
+  }
+  @media screen and (max-width: 406px){
+    .welcome{padding: 0px;}}

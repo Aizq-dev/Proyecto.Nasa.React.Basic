@@ -4,30 +4,9 @@ body {
   
   min-width: 320px;
   min-height: 100vh;
+
 }
 
- .header{
-  width: 100%;
-  color: rgba(8, 50, 122, 0.87);
-   
-}
-.nasa-icon{
-  width: 150px;
-  height: 150px;
-}
-
-.welcome{ 
-  display: flex;
-  
-  border-bottom:solid 2px  black;
-  align-items: center;
-  justify-content:space-between;
-  padding: 0px 3rem;
-}
-.select{
-  padding-left: 1rem;
-  width: 10rem;
-}
 
 .outlet {
   width: 100vw;
@@ -35,24 +14,14 @@ body {
 
   display: flex;
   flex-direction: row;
-
+ 
 
 }
-.input{
-  margin-left: 50px;
-}
-
-
 
 .notfound{padding-left: 45%;}
-@media screen and (max-width: 970px){
-  .select{min-width: 130px;}
-}
-@media screen and (max-width: 676px){
-    .welcome > h1{display:none}
-}
+
 @media screen and (max-width: 406px){
-  .welcome{padding: 0px;}
+
   .outlet{display:flex;
   flex-direction: column;
 justify-content: center;
