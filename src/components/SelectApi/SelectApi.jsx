@@ -8,7 +8,7 @@ const SelectApi = () => {
     const location = useLocation()
     const [selected, setSelected] = useState("APOD")
     useEffect(()=>{
-      navigate(selected) //Este useEffect es para que en netlify carge apod cuando se abra por primera vez y no se quede el outlet vacio
+      navigate(APOD) //Este useEffect es para que en netlify carge apod cuando se abra por primera vez y no se quede el outlet vacio
     },[]) 
   
     useEffect(() => {
