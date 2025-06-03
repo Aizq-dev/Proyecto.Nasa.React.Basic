@@ -1,5 +1,12 @@
-Aplicación del clima desarrollada con React y JavaScript. Permite al usuario consultar el tiempo actual de cualquier ubicación mediante llamadas a una API meteorológica, mostrando temperatura, iconos representativos del clima, previsiones y más. Integra una segunda API que sugiere ubicaciones a medida que el usuario escribe en el buscador.
-La interfaz incluye un fondo dinámico que cambia automáticamente en función del clima de la ciudad consultada. Además, cuenta con un botón que solicita permisos de geolocalización y muestra el tiempo actual en tu ubicación
+Aplicación desarrollada con React (JS) que conecta con la API pública de la NASA. Consta de dos secciones principales:
 
-Weather application built with React and JavaScript. Users can check the current weather in any location via API calls that provide temperature, weather icons, forecasts, and more. It also integrates a second API that suggests matching locations as the user types. 
-The background dynamically changes based on the weather of the selected city. Additionally, there's a geolocation feature that requests permission and shows the weather at the user’s current location.
+1-Foto del Día: puedes seleccionar cualquier fecha y se mostrará la imagen astronómica publicada por la NASA ese día, junto con su descripción.
+2-Explorador Marciano: accede a imágenes captadas por el rover en Marte. Puedes buscar por fecha, y si hay muchas imágenes disponibles, la aplicación mostrará una paginación para navegar entre ellas.
+
+
+This application, built with React (JS), connects to NASA’s public API and has two main sections:
+
+-Picture of the Day: select any date to see the astronomy image NASA published that day, along with its description.
+-Mars Rover Explorer: search for pictures taken by the Mars rover on specific dates. If many images are available, pagination allows you to navigate through them easily.
+
+[DEMO NETLIFY](https://photosnasa.netlify.app/APOD)
